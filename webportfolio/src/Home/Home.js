@@ -2,6 +2,12 @@ import "./Home.css"
 import headshot from "../Images/Terry-headshot.png"
 import linkedinLogo from "../Images/Linkedin.png"
 import githubLogo from "../Images/Github.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import resumepdf from "../Resume/Resume.pdf"
+
 
 const Home = () => {
   return (
@@ -15,8 +21,22 @@ const Home = () => {
       </div>
 
       <div className="buttons">
-        <button>Button 1</button>
-        <button>Button 2</button>
+        <a href="#contact-me">
+          <button>
+          <FontAwesomeIcon icon={faEnvelope}
+            className="faIconEnvelope"/>
+            Contact Me
+            <FontAwesomeIcon icon={faArrowRightLong}
+            className="faIcon"/>
+          </button>
+        </a>
+        <a href= {resumepdf} download= "Terry_Lu_Resume">
+          <button>
+            Download Resume 
+            <FontAwesomeIcon icon={faArrowDown}
+            className="faIcon"/>
+          </button>
+        </a>
       </div>
 
       <div className="icons">

@@ -8,7 +8,7 @@ const Header = () => {
       <a href="#projects" className="headerAbout">Projects</a>
       <a href="#about-me" className="headerAbout">Skills</a>
       <a href="#about-me" className="headerAbout">Experience</a>
-      <a href="#about-me" className="headerAbout">Contact</a>
+      <a href="#contact-me" className="headerAbout">Contact</a>
     </div>
   )
 }

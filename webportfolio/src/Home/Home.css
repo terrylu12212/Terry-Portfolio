@@ -1,7 +1,7 @@
 #homeGrid {
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: 500px auto;
+  grid-template-columns: auto auto;
   width: 60%;
   align-items: center;
   justify-items: center;
@@ -22,8 +22,22 @@
 
 .buttons button {
   border-radius: 20px;
-  width: 100px;
-  height: 70px;
+  box-sizing: content-box;
+  width: 192px;
+  height: 28px;
+  margin-right: 20px;
+  background-color: #0B2545;
+  color: white;
+  padding: 12px 20px 12px 20px;
+  font-size: 18px;
+}
+
+.faIcon{
+  margin-left: 10px;
+}
+
+.faIconEnvelope{
+  margin-right: 10px;
 }
 
 .icons img {
