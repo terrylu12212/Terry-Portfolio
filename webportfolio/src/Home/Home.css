@@ -1,0 +1,33 @@
+#homeGrid {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 500px auto;
+  width: 60%;
+  align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+
+#headshot{
+  width: 400px;
+  height: 400px;
+}
+
+
+.homeText p{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.buttons button {
+  border-radius: 20px;
+  width: 100px;
+  height: 70px;
+}
+
+.icons img {
+  width: 56px;
+  height: 56px;
+  margin-right: 50px;
+}
