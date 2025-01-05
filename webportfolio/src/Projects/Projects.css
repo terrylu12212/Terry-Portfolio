@@ -17,5 +17,31 @@
   border: 2px solid black;
   margin-bottom: 50px;
   text-align: center;
-  background-color: rgba(173, 216, 230, 0.4);;
+  background-color: rgba(173, 216, 230, 0.4);
+  position: relative;
 }
+
+#projects .project-box button{
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #134074;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+.image-container{
+  position: relative;
+}
+
+.image-container .image{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
