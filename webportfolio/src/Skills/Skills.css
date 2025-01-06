@@ -1,0 +1,27 @@
+#skills {
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.skills-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-container .box{
+  display: inline-flex;
+  height: 28px;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: auto;
+  padding: 0px 12px 0px 12px;
+  border-radius: 14px;
+  background-color: #13315C;
+  color: white;
+}
