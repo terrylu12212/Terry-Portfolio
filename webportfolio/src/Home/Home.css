@@ -1,3 +1,7 @@
+#fullHome {
+  background-color: #000;
+}
+
 #homeGrid {
   display: grid;
   grid-template-rows: auto auto;
@@ -6,7 +10,8 @@
   align-items: center;
   justify-items: center;
   margin: 0 auto;
-  margin-bottom: 200px;
+  padding-top: 100px;
+  min-height: 100vh;
 }
 
 #headshot{
@@ -18,6 +23,7 @@
 .homeText p{
   font-size: 30px;
   line-height: 40px;
+  color: rgb(245, 245, 247);
 }
 
 .buttons button {
@@ -26,10 +32,16 @@
   width: 192px;
   height: 28px;
   margin-right: 20px;
-  background-color: #0B2545;
-  color: white;
+  background-color: #000;
+  border: 2px solid rgb(161, 161, 166);
+  color: rgb(255,255,255);
   padding: 12px 20px 12px 20px;
   font-size: 18px;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .faIcon{
@@ -40,8 +52,28 @@
   margin-right: 10px;
 }
 
+
 .icons img {
   width: 56px;
   height: 56px;
   margin-right: 50px;
+  border: 2px solid rgb(161, 161, 166);
+}
+
+.icons img:hover{
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.icons .github {
+  height: 56px;
+  width: 120px;
+  padding: 0px 5px 0px 5px;
+  border: 2px solid rgb(161, 161, 166);
+}
+
+@media (max-width: 768px) {
+  #homeGrid {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
 }

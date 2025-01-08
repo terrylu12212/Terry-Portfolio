@@ -11,6 +11,7 @@ import resumepdf from "../Resume/Resume.pdf"
 
 const Home = () => {
   return (
+    <div id="fullHome">
     <section id ="homeGrid">
 
       <img src= {headshot} alt="Camera Headshot of Me" id="headshot"/>
@@ -44,10 +45,11 @@ const Home = () => {
           <img src= {linkedinLogo} alt="Linkedin Logo" className="logo"/>
         </a>
         <a href="https://github.com/terrylu12212" target="_blank" rel="noreferrer">
-          <img src= {githubLogo} alt="GitHub Logo" className="logo"/>
+          <img src= {githubLogo} alt="GitHub Logo" className="github"/>
         </a>
       </div>
     </section>
+    </div>
   )
 }
 

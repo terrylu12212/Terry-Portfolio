@@ -6,7 +6,8 @@
   width: 60%;
   align-items: center;
   justify-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 #projects .project-box{
