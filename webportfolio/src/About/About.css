@@ -5,16 +5,17 @@
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  margin-bottom: 100px;
-  padding-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 h2 {
   color: rgb(245, 245, 247);
+  font-size: 40px;
 }
 
-p {
+#about-me p {
   font-size: 18px;
-  line-height: 28px;
+  line-height: 34px;
   color: #9C9C9C;
 }

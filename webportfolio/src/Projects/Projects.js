@@ -8,10 +8,8 @@ const Projects = () => {
     <section id ="projects">
         <h2>Recent Projects</h2>
         <div className="project-box">
-          <div>
-            <h3>
-              FreshWatch
-            </h3>
+          <div className="left-project-box">
+            <h3>FreshWatch</h3>
             <p>
               Built a full-stack grocery tracking application to provide an efficient way for users to track their groceries and expiration dates. Used MongoDB, ExpressJS, ReactJS, and NodeJS.
             </p>
@@ -27,7 +25,7 @@ const Projects = () => {
         </div>
 
         <div className="project-box">
-          <div>
+          <div className="left-project-box">
             <h3>
               ShiftFlow Master
             </h3>
@@ -46,7 +44,7 @@ const Projects = () => {
         </div>
 
         <div className="project-box">
-          <div>
+          <div className="left-project-box">
             <h3>
               Chicago Crimes 
             </h3>

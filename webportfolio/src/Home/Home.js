@@ -17,7 +17,7 @@ const Home = () => {
       <img src= {headshot} alt="Camera Headshot of Me" id="headshot"/>
       <div className="homeText">
         <p>
-          Hello! I am <b>Terry Lu</b>, a Third-Year Computer Science Student at the <b>University of Florida</b>. I have experience through personal projects, internships, and classes for fields such as <b>Web Development</b> and <b>Automation</b>.
+          Hello! I am Terry Lu, a Third-Year Computer Science Student at the University of Florida. I have experience through personal projects, internships, and classes for fields such as Web Development and Automation.
         </p>
       </div>
 
