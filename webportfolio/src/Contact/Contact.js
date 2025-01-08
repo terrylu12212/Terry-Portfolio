@@ -56,6 +56,7 @@ const Contact = () => {
       <div className="form-container">
       <form onSubmit={handleSubmit}>
       <div>
+        <label htmlFor="name">Name</label>
         <input
           id="name"
           type="text"
@@ -67,6 +68,7 @@ const Contact = () => {
         </div>
 
         <div>
+        <label htmlFor="email">Email</label>
         <input
           id="email"
           type="text"
@@ -78,16 +80,18 @@ const Contact = () => {
         </div>
 
         <div>
+        <label htmlFor="message">Message</label>
         <input
           id="message"
           type="textarea"
           placeholder="What's your message?"
           value={message}
           onChange={handleMessageChange}
+          className="message"
           required
         />
         </div>
-        <button type = "Submit">Send</button>
+        <button type = "Submit" className="send-button">Send</button>
       </form>
       </div>
 

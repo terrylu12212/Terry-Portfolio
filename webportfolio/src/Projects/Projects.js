@@ -15,7 +15,7 @@ const Projects = () => {
             </p>
             <a href="https://github.com/terrylu12212/FreshWatch-Terry-" target="_blank"  rel="noreferrer">
             <button>
-              View Github
+              View GitHub
             </button>
             </a>
           </div>
@@ -34,7 +34,7 @@ const Projects = () => {
             </p>
             <a href="https://github.com/terrylu12212/ShiftFlow-Master" target="_blank"  rel="noreferrer">
             <button>
-              View Github
+              View GitHub
             </button>
             </a>
           </div>
@@ -53,7 +53,7 @@ const Projects = () => {
             </p>
             <a href="https://github.com/terrylu12212/Chicago-Crime-Project" target="_blank"  rel="noreferrer">
             <button>
-              View Github
+              View GitHub
             </button>
             </a>
           </div>

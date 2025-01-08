@@ -16,13 +16,19 @@
 .skills-container .box{
   display: inline-flex;
   height: 28px;
-  border: 2px solid black;
   align-items: center;
   justify-content: center;
   margin: 20px;
   width: auto;
   padding: 0px 12px 0px 12px;
   border-radius: 14px;
-  background-color: #13315C;
-  color: white;
+  background-color: rgb(20,20,20);
+  color: rgb(245, 245, 247);
+  border: 2px solid rgb(161, 161, 166);
+  box-shadow: 0 0 10px 2px rgba(169, 169, 169, 0.7);
+}
+
+.skills-container .box:hover{
+  cursor: pointer;
+  border: 2px solid rgb(255, 255, 255);
 }

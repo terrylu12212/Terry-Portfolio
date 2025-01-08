@@ -1,22 +1,71 @@
 #contact-me {
   padding-top: 50px;
-  margin-bottom: 100px;;
+  margin-bottom: 100px;
 }
 
 #contact-me h2, h3{
   text-align: center;
+  color: rgb(245, 245, 247);
+}
+
+#contact-me h3{
+  margin-bottom: 50px;
 }
 
 .form-container {
   display: flex;
+  justify-content: center;
   width: 60%;
   margin: 0 auto;
-  justify-content: center;
+  padding: 32px;
+  background-color: rgb(41,41,41);
+  border: 2px solid rgb(161, 161, 166);
+  box-shadow: 0 0 10px 2px rgba(169, 169, 169, 0.7);
 }
 
+form {
+  width: 100%;
+}
 
 input {
-  width: 608px;
+  width: 100%;
   height: 56px;
+  margin-top: 16px;
   margin-bottom: 20px;
+  background-color: rgb(31,31,31);
+  font-size: 16px;
+  color: rgb(245, 245, 247);
+  border-radius: 8px;
+  border: none;
+}
+
+label{
+  color: rgb(245, 245, 247);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.message{
+  padding-bottom: 150px;
+}
+
+.send-button{
+  width: 130px;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: content-box;
+  border: none;
+  color: rgb(245, 245, 247);
+  background-color: rgb(20,20,20);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid rgb(161, 161, 166);
+}
+
+.send-button:hover{
+  cursor: pointer;
+  color: rgb(255,255,255);
+  border: 2px solid rgb(255,255,255);
 }
