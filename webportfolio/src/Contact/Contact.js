@@ -9,24 +9,18 @@ const Contact = () => {
 
   const handleNameChange = (e) => {
     setName(e.target.value)
-    console.log(name)
   }
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value)
-    console.log(email)
   }
 
   const handleMessageChange = (e) => {
     setMessage(e.target.value)
-    console.log(message)
   }
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name)
-    console.log(email)
-    console.log(message)
     const serviceId = "service_g6cns1m"
     const templateId = "template_5c4iejv"
     const publicKey = "9KU5jdLthGiLChAHF"

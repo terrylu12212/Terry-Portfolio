@@ -12,8 +12,7 @@
 #projects .project-box{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 400px;
-  width: 700px;
+  width: 70.63%;
   border: 2px solid rgb(161, 161, 166);
   margin-bottom: 50px;
   background-color: rgb(20,20,20);
@@ -52,6 +51,7 @@
   color: rgb(245, 245, 247);
   font-size: 16px;
   border: 2px solid rgb(161, 161, 166);
+  margin-bottom: 20px;
 }
 
 #projects .project-box button:hover{
@@ -70,5 +70,18 @@
   bottom: 0;
   right: 0;
   box-shadow: 0 0 10px 2px rgba(169, 169, 169, 0.7);
+}
+
+@media (max-width: 1024px) {
+  #projects .project-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .image-container .image{
+    width: 0px;
+    height: 0px;
+  }
 }
 

@@ -39,6 +39,7 @@ input {
   border: none;
 }
 
+
 label{
   color: rgb(245, 245, 247);
   font-weight: 500;
@@ -68,4 +69,10 @@ label{
   cursor: pointer;
   color: rgb(255,255,255);
   border: 2px solid rgb(255,255,255);
+}
+
+input:-webkit-autofill {
+  background-color: rgb(31,31,31) !important;
+  color: rgb(245, 245, 247) !important;
+  transition: background-color 5000s ease-in-out 0s, color 5000s ease-in-out 0s !important;
 }
